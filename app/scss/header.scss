@@ -1,0 +1,11 @@
+@import 'mixins';
+
+#main-header {
+    @include centrowanieFlex;
+    height: 100vh;
+
+    .inner-header {
+        @include wysSzer(300px, 300px);
+        background-color: darkblue;
+    }
+}

@@ -1,0 +1,24 @@
+#main-nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#main-nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#main-nav ul .list-item {
+    display: inline-block;
+}
+
+#main-nav ul .list-item a {
+    color: #222;
+}
+
+#main-nav ul .list-item a:hover {
+    color: red;
+}
